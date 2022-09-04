@@ -443,43 +443,44 @@ const Home = (props) => {
                 would like it to be, especially when you do nothing for
                 yourself.
               </span>
-              <a
-                href="mailto:lars.rudbeck.bak@gmail.com?subject=Ronin Karate"
-                className="home-link7"
-              >
-                <div className="home-form">
-                  <h1 className="home-text72">Interesseret i en træning?</h1>
-                  <span className="home-text73 textXL">
-                    Complete this form and we will get back to you in 24 hours.
-                  </span>
-                  <span className="home-text74 textXS">FULL NAME</span>
-                  <input
-                    type="text"
-                    placeholder="Full Name"
-                    className="home-textinput textSM input"
-                  />
-                  <span className="home-text75 textXS">EMAIL</span>
-                  <input
-                    type="text"
-                    placeholder="Email"
-                    className="home-textinput1 textSM input"
-                  />
-                  <span className="home-text76 textXS">MESSAGE</span>
-                  <textarea
-                    cols="80"
-                    rows="4"
-                    disabled="true"
-                    placeholder="Type a message"
-                    className="home-textarea textSM textarea"
-                  ></textarea>
-                  <div className="home-container45">
+              <div className="home-form">
+                <h1 className="home-text72">Interesseret i en træning?</h1>
+                <span className="home-text73 textXL">
+                  Complete this form and we will get back to you in 24 hours.
+                </span>
+                <span className="home-text74 textXS">FULL NAME</span>
+                <input
+                  type="text"
+                  placeholder="Full Name"
+                  className="home-textinput textSM input"
+                />
+                <span className="home-text75 textXS">EMAIL</span>
+                <input
+                  type="text"
+                  placeholder="Email"
+                  className="home-textinput1 textSM input"
+                />
+                <span className="home-text76 textXS">MESSAGE</span>
+                <textarea
+                  cols="80"
+                  rows="4"
+                  disabled="true"
+                  placeholder="Type a message"
+                  className="home-textarea textSM textarea"
+                ></textarea>
+                <div className="home-container45">
+                  <a
+                    href="mailto:lars.rudbeck.bak@gmail.com?subject=Ronin"
+                    className="home-link7"
+                  >
                     <SecondaryButton
                       button="Send message"
                       rootClassName="secondary-button-root-class-name"
+                      className="home-component08"
                     ></SecondaryButton>
-                  </div>
+                  </a>
                 </div>
-              </a>
+              </div>
             </div>
           </div>
           <img
@@ -1459,9 +1460,6 @@ const Home = (props) => {
             text-align: center;
             font-weight: 300;
           }
-          .home-link7 {
-            display: contents;
-          }
           .home-form {
             flex: 0 0 auto;
             width: 80%;
@@ -1472,7 +1470,6 @@ const Home = (props) => {
             align-items: flex-start;
             border-radius: var(--dl-radius-radius-radius50);
             flex-direction: column;
-            text-decoration: none;
             background-color: var(--dl-color-pimary-800);
           }
           .home-text72 {
@@ -1553,6 +1550,12 @@ const Home = (props) => {
             margin-top: var(--dl-space-space-unit);
             align-items: flex-start;
             flex-direction: column;
+          }
+          .home-link7 {
+            display: contents;
+          }
+          .home-component08 {
+            text-decoration: none;
           }
           .home-image8 {
             top: auto;
