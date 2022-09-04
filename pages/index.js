@@ -39,7 +39,7 @@ const Home = (props) => {
             />
             <img
               alt="image"
-              src="/playground_assets/white-vector.svg"
+              src="https://images.unsplash.com/photo-1660899227222-b9fd7fe2e060?ixid=Mnw5MTMyMXwwfDF8YWxsfDE0fHx8fHx8Mnx8MTY2MDkyMTMxNA&amp;ixlib=rb-1.2.1&amp;w=1500"
               className="home-image1"
             />
           </div>
@@ -487,7 +487,7 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
             background-size: cover;
-            background-image: url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=1200&q=80');
+            background-image: url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
           }
           .home-bg {
             flex: 0 0 auto;
@@ -1601,6 +1601,10 @@ const Home = (props) => {
             object-fit: cover;
           }
           @media (max-width: 991px) {
+            .home-hero {
+              background-size: cover;
+              background-image: url('/playground_assets/feature-1500h.jpg');
+            }
             .home-cards-container {
               align-items: center;
               flex-direction: column;
@@ -1644,6 +1648,9 @@ const Home = (props) => {
             }
           }
           @media (max-width: 767px) {
+            .home-text01 {
+              color: var(--dl-color-gray-900);
+            }
             .home-section1 {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);

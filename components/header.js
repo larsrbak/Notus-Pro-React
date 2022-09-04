@@ -399,7 +399,7 @@ const Header = (props) => {
 Header.defaultProps = {
   rootClassName: '',
   heading11: 'NOTUS PRO',
-  heading1: 'NOTUS PRO',
+  heading1: 'Ronin Karate',
 }
 
 Header.propTypes = {
