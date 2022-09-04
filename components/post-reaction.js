@@ -124,7 +124,7 @@ const PostReaction = (props) => {
 }
 
 PostReaction.defaultProps = {
-  image_src: '/playground_assets/team4-200h.png',
+  image_src: 'https://play.teleporthq.io/static/svg/placeholders/no-image.svg',
   name: 'John Snow',
   image_alt: 'image',
   likes: '10',
